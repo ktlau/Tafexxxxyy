@@ -44,7 +44,7 @@
 			</StackPanel>
 			<Button Name="calcuateButton" Content="Calculate" HorizontalAlignment="Center" FontSize="32" Margin="10" Click="calcuateButton_Click" />
 
-			<Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" FontSize="32" Margin="10" />
+			<HyperlinkButton x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" FontSize="32" Margin="10" Click="exitButton_Click" />
 
 
 		</StackPanel>

@@ -39,7 +39,7 @@
 
 			
 			<Button x:Name="ConversionButton" Content="Currency conversion" HorizontalAlignment="Center" FontSize="36" Margin="10" Click="ConversionButton_Click" />
-			<Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" FontSize="36" Margin="10" />
+			<HyperlinkButton x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" FontSize="36" Margin="10" Click="exitButton_Click" />
 
 		</StackPanel>
 

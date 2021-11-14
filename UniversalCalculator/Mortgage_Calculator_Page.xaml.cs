@@ -29,7 +29,7 @@ namespace Calculator
 
 		private void calcuateButton_Click(object sender, RoutedEventArgs e)
 		{
-			double principalBorrow, yearlyInterestRate, monthlyInterestRate, monthlyRepayment, noOfMonths, power, years, months;
+			double principalBorrow, yearlyInterestRate, monthlyInterestRate, monthlyRepayment, noOfMonths, years, months;
 
 
 			principalBorrow = double.Parse(principalBorrowTextBox.Text);
@@ -48,5 +48,10 @@ namespace Calculator
 			monthlyRepaymentTextBox.Text = monthlyRepayment.ToString("N");
 
 		}
-    }
+
+		private void exitButton_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainMenu));
+		}
+	}
 }
