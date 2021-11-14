@@ -15,6 +15,8 @@
 			<HyperlinkButton x:Name="mathsCalculatorButton" Content="Maths Calculator" HorizontalAlignment="Center" FontSize="32" Margin="50" Click="mathsCalculatorButton_Click" />
 			<HyperlinkButton x:Name="mortgageCalculatorButton" Content="Mortgage Calculator" HorizontalAlignment="Center" FontSize="32" Margin="50" Click="mortgageCalculatorButton_Click" />
 			<HyperlinkButton x:Name="currencyConverterButton" Content="Currency Calculator" HorizontalAlignment="Center" FontSize="32" Margin="50" Click="currencyConverterButton_Click" />
+			<HyperlinkButton x:Name="tripCCalculatorButton" Content="Trip Calculator" HorizontalAlignment="Center" FontSize="32" Margin="50" />
+			
 			<Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" FontSize="32" Margin="50" />
 
 		</StackPanel>
